@@ -1,7 +1,6 @@
 # Code for "Why quantum machine learning can be harder to evade under adaptive attacks"
 
-**Authors:** Zhihai Xie, Shibin Zhang  
-**Affiliation:** Advanced Cryptography and System Security Key Laboratory of Sichuan Province  
+**Authors:** Zhihai Xie  
 **Journal:** *Nature Communications* (under review)  
 **Data deposit:** https://doi.org/10.5281/zenodo.20700154
 
@@ -225,6 +224,35 @@ root via `sys.path` insertion; no installation step is required.
 
 ---
 
+## Computational environment
+
+Experiments were run on:
+
+- **GPU:** 2× NVIDIA RTX A6000 (49 GB each), driver 550.90.07, CUDA 12.1
+- **CPU:** Intel(R) Xeon(R) Gold 6348 @ 2.60GHz (112 threads)
+- **RAM:** 128 GB
+- **OS:** Ubuntu 22.04.4 LTS, kernel 5.15.0-125-generic
+- **Python:** 3.10.18 (conda-forge)
+
+Key package versions:
+
+| Package | Version |
+|---|---|
+| numpy | 1.26.4 |
+| scipy | 1.15.3 |
+| scikit-learn | 1.7.1 |
+| torch | 2.1.0+cu121 |
+| pandas | 2.3.2 |
+| matplotlib | 3.10.5 |
+| pennylane | 0.42.3 |
+
+`fast_circuit.py` is pure-numpy and runs on CPU only; the GPU was used for the
+PyTorch-based classical components (e.g. checkpoint loading, classical-control
+baselines). IBM Quantum hardware scripts (`hardware/`) require `qiskit` and
+`qiskit-ibm-runtime` (see `requirements.txt`), tested separately.
+
+---
+
 ## Datasets
 
 | Dataset | Source | Licence |
@@ -254,5 +282,4 @@ RGB images resized to 28×28 before amplitude/angle encoding.
 
 ## Contact
 
-Zhihai Xie — xiezhihai@sptc.edu.cn  
-Advanced Cryptography and System Security Key Laboratory of Sichuan Province
+Zhihai Xie — xiefeng102x@gmail.com
