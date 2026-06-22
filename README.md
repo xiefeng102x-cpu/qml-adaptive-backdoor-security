@@ -1,6 +1,6 @@
 # Code for "Why quantum machine learning can be harder to evade under adaptive attacks"
 
-**Authors:** Zhihai Xie    
+**Authors:** Xie, Feng    
 **Data deposit:** https://doi.org/10.5281/zenodo.20700154
 
 ---
@@ -279,4 +279,4 @@ RGB images resized to 28×28 before amplitude/angle encoding.
 
 ## Contact
 
-Zhihai Xie — xiefeng102x@gmail.com
+Xie, Feng — xiefeng102x@gmail.com
