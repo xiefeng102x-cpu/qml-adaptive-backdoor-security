@@ -269,7 +269,7 @@ RGB images resized to 28×28 before amplitude/angle encoding.
 ```bibtex
 @article{xie2026qmladaptive,
   title   = {Why quantum machine learning can be harder to evade under adaptive attacks},
-  author  = {Xie, Zhihai},
+  author  = {Xie, Feng},
   year    = {2026},
   doi     = {10.5281/zenodo.20700154}
 }
