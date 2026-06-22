@@ -1,0 +1,20 @@
+# Python 3.13 environment used for all experiments
+# Versions listed are those used in the paper; minor version bumps are expected to work.
+
+# Core numerical
+numpy>=2.0.0
+scipy>=1.13.0
+
+# Machine learning / detection
+scikit-learn>=1.5.0
+torch>=2.4.0          # CPU or CUDA; used for loading .pt checkpoint files
+
+# Data handling / analysis scripts
+pandas>=2.2.0
+
+# Figure generation
+matplotlib>=3.9.0
+
+# IBM Quantum hardware scripts (hardware/ only — not required for simulation)
+qiskit>=1.2.0
+qiskit-ibm-runtime>=0.22.0
