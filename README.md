@@ -1,7 +1,6 @@
 # Code for "Why quantum machine learning can be harder to evade under adaptive attacks"
 
-**Authors:** Zhihai Xie  
-**Journal:** *Nature Communications* (under review)  
+**Authors:** Zhihai Xie    
 **Data deposit:** https://doi.org/10.5281/zenodo.20700154
 
 ---
